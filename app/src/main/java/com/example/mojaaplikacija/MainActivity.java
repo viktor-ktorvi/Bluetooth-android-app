@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private InputStream inStream;
     private BluetoothAdapter mBlueAdapter;
     private BluetoothSocket socket = null;
-    public static String module_address = "00:18:E4:35:4D:6D";
+    public static String module_address = "00:18:E4:35:4D:6D";  // target module
 
     @SuppressLint("SetTextI18n")
     @Override
